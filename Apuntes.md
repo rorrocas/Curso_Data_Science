@@ -1,6 +1,6 @@
 <h1>Unidad I</h1>
 
-	<b>getpass.getpass()</b> # Funciona como un input pero con caracteres ocultos
+	<em>getpass.getpass()</em> # Funciona como un input pero con caracteres ocultos
 	<b>sys.argv[#]</b> # Pasa argumentos al ejecutar el script (El elemento[0] es el nombre del script)
 	<b>.__dir__()</b> # En un objeto muestra las funciones de tal objeto
 	
