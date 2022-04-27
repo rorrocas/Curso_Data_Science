@@ -1,8 +1,11 @@
 #Unidad I
-	-__getpass.getpass()__ # Funciona como un input pero con caracteres ocultos
-	-<b>sys.argv[#]</b> # Pasa argumentos al ejecutar el script (El elemento[0] es el nombre del script)
-	-<b>.__dir__()</b> # En un objeto muestra las funciones de tal objeto
-	-Metodos para listas:
+
+-__getpass.getpass()__ # Funciona como un input pero con caracteres ocultos
+
+-<b>sys.argv[#]</b> # Pasa argumentos al ejecutar el script (El elemento[0] es el nombre del script)
+
+-<b>.__dir__()</b> # En un objeto muestra las funciones de tal objeto
+-Metodos para listas:
 	-append() # Inserta elemento en la ultima posicion
 	-insert(i,x) # Inserta elemento x en posicion i
 	-pop() # Retorna ultimo elemento 
