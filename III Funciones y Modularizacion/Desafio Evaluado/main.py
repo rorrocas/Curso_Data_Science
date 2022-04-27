@@ -36,7 +36,7 @@ if opcion == '0':
     time.sleep(2)
     os.system(op_sys)
     # finalizar programa
-    
+    exit()
 
 # Funcionamiento de preguntas
 while correcto and n_pregunta < 3*p_level:
