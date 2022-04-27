@@ -1,7 +1,7 @@
-Unidad I
-	getpass.getpass() # Funciona como un input pero con caracteres ocultos
+<h1>Unidad I</h1>
+	<p> getpass.getpass() # Funciona como un input pero con caracteres ocultos
 	sys.argv[#] # Pasa argumentos al ejecutar el script (El elemento[0] es el nombre del script)
-	.__dir__() # En un objeto muestra las funciones de tal objeto
+	.__dir__() # En un objeto muestra las funciones de tal objeto </p>
 	
 	Metodos para listas:
 	append() # Inserta elemento en la ultima posicion
@@ -21,7 +21,7 @@ Unidad I
 	string.title(): Transforma a Mayusculas la primera letra al comienzo y despues de un espacio 
 	(", "join(["a","b","c"])): Une elemtos de una lista a un string
 	
-Unidad II
+<h1>Unidad II</h1>
 	Diccionarios:
 	for i, j in diccionario.items() #Realiza recorrido for por clave y valor del diccionario
 	ciclo for:
