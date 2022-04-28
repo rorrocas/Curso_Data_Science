@@ -14,7 +14,7 @@
 
 ## Metodos para listas
 ```
-lista[**indice**] = **valor**
+lista[indice] = valor
 ```
 _Los elementos se buscan por el **indice**._
 - **append()** # Inserta elemento en la ultima posicion.
@@ -31,7 +31,7 @@ _Los elementos se buscan por el **indice**._
 
 ## Metodos para diccionario
 ```
-diccionario[**Llave**] = **valor**
+diccionario[Llave] = valor
 ```
 _Los elementos se buscan por la **clave**._
 
@@ -70,7 +70,6 @@ dict([('k1', 1), ('k2', 2)]) # {"k1": 1, "k2": 2}
 ```
 
 # Unidad II
-_DRY: Don't Repeat Your Self_
 - **is** # Es una **keyword** y funciona como un "==".
 ## Ciclo for
 - **for posicion, elemento in enumerate(string)** # Permite traer poscicion y elemento de un string.
@@ -94,5 +93,23 @@ _Utilizando dos listas podemos armar un diccionario de la sgte. forma:_
 ```
 {key:value for key,value in zip(claves, valores)}
 ```
-# Unidad III	
+# Unidad III
+_DRY: Don't Repeat Your Self_
+## Tipos de parametros
+_Obligatorio_
+```
+def funcion(parametro_obligatorio)
+```
+_Opcional o Por Defecto__
+```
+def funcion(parametro_obligatorio,parametro_opcional = valor_por_defecto)
+```
+_***args** y ****kwarsg**__
+- ***arg** permite pasar multiples argumentos transformandoloes en una lista.
+- ****kwarsg** permite pasar multiples argumentos pasandolos a diccionario y por eso estos deben ser asignados.
+```
+def funcion(**kwarsg):
+  return kwarsg
+funcion(key_1 = value_1, key_2 = value_2) # Imprime {"key_1": value_1, "key_2": value_2}
+```
 # Unidad IV Conexion y Consumo de APIs
