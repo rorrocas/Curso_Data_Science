@@ -70,9 +70,29 @@ dict([('k1', 1), ('k2', 2)]) # {"k1": 1, "k2": 2}
 ```
 
 # Unidad II
+_DRY: Don't Repeat Your Self_
+- **is** # Es una **keyword** y funciona como un "==".
 ## Ciclo for
-- **for i,j in enumerate(string)** #permite traer poscicion y elemento de un string.
-- **for i, j in diccionario.items()** #Realiza recorrido for por clave y valor del diccionario.
-
+- **for posicion, elemento in enumerate(string)** # Permite traer poscicion y elemento de un string.
+- **for clave, valor in diccionario.items()** # Realiza recorrido for por clave y valor del diccionario.
+- **zip()** # Permite unir listas para iterarlas a la vez.
+```
+for elemento_1, elemento_2, elemente_3 in zip(lista_1, lista_2, lista_3)
+```
+- **random.shuffle(lista)** # Retorna una lista mezclada derivada de una lista original.
+## List comprehesions
+_Para armar una lista basada en valores dados por una condicional y un else _
+```
+[expresión1 if condición1 else expresión2 for variable in iterable]
+```
+_Para armar una lista basada solo en una condicion sin else_
+```
+[expresión for variable in iterable if condición ]
+```
+## Dictionary Comprehensions
+_Utilizando dos listas podemos armar un diccionario de la sgte. forma:_
+```
+{key:value for key,value in zip(claves, valores)}
+```
 # Unidad III	
 # Unidad IV Conexion y Consumo de APIs
