@@ -95,6 +95,7 @@ _Utilizando dos listas podemos armar un diccionario de la sgte. forma:_
 ```
 # Unidad III
 _DRY: Don't Repeat Your Self_
+- **global** # Se utiliza para llamar variables globales a entornos locales
 ## Tipos de parametros
 _Obligatorio_
 ```
@@ -112,4 +113,62 @@ def funcion(**kwarsg):
   return kwarsg
 funcion(key_1 = value_1, key_2 = value_2) # Imprime {"key_1": value_1, "key_2": value_2}
 ```
+## Documentacion
+_Importante documentar codigo en cada funcion_
+```
+def funcion(parametro):
+""" La funcion toma el parametro y retorna esta operacion... """
+```
+_Sintaxis para comentar codigo_
+### Google
+```
+"""
+[summary]
+Args:
+var1 ([type]): [description]
+var2 ([type]): [description]
+Returns:
+[type]: [description]
+"""
+```
+### Sphinx
+```
+"""
+[summary]
+:param var1: [description]
+:type var1: [type]
+:param var2: [description]
+:type var2: [type]
+:return: [description]
+:rtype: [ty
+"""
+```
+### Docblockr
+```
+"""
+[summary]
+Arguments:
+var1 {[type]} -- [description]
+var2 {[type]} -- [description]
+Returns:
+[type] -- [description]
+"""
+```
+### Numpy
+```
+"""
+[summary]
+Parameters
+----------
+var1 : [type]
+[description]
+var2 : [type]
+[description]
+Returns
+-------
+[type]
+[description return]
+"""
+```
+
 # Unidad IV Conexion y Consumo de APIs
