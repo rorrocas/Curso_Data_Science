@@ -194,4 +194,10 @@ _Algunos ejemplos:_
 # Lectura del contenido
 _La libreria **json** se utiliza para transformar de JSON a listas, diccionarios o viceversa_
 - Con **json.loads(response.text)** obtenemos una lista o diccionario a partir de un JSON
-- 
+_Ejemplo de transformar requests en una funcion:_
+```
+import requests
+import json
+def request_get(url):
+  return json.loads(requests.get(url).text)
+```
