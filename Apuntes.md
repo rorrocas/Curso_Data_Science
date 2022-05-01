@@ -191,3 +191,7 @@ _Algunos ejemplos:_
 ● 404: Not Found.
 ● 500: Server error.
 ```
+# Lectura del contenido
+_La libreria **json** se utiliza para transformar de JSON a listas, diccionarios o viceversa_
+- Con **json.loads(response.text)** obtenemos una lista o diccionario a partir de un JSON
+- 
