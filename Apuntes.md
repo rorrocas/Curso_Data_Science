@@ -170,5 +170,24 @@ Returns
 [description return]
 """
 ```
-
 # Unidad IV Conexion y Consumo de APIs
+_**requests** es la libreria utilizada para realizar consultas en APIs.
+- **requests.request** # Es utilizada para realizar consultas.
+```
+response = requests.request("GET", url, headers=headers, data=payload)
+```
+_Para visualizar la consulta se utiliza **response.text** que retorna un string en formato JSON_
+## Codigos
+- 1xx: Información.
+- 2xx: Solicitudes exitosas.
+- 3xx: Redireccionamiento.
+- 4xx: Error del cliente (no hizo la request correctamente).
+- 5xx: Error del servidor (no puede dar una respuesta).
+_Algunos ejemplos:_
+```
+● 200: Ok.
+● 401: Unauthorized.
+● 403: Forbidden.
+● 404: Not Found.
+● 500: Server error.
+```
