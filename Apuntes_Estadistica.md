@@ -20,16 +20,22 @@ Cuando es solicitada una columna se crea un serie, un lista unidimensional con v
 _Promedio:_
 - Con numpy: np.mean(lista)
 - Con Python nativo: sum(lista)/len(lista)
+
 _Moda:_
 - Con Scipy: import scipy.stats as stats -> stats.mode(lista)
+
 _Mediana:_
 - Con numpy: np.median(lista)
+
 _Percentiles:_
 - Con numpy: np.percentile(lista,porcentaje)
+
 _Rango:_
 - Con numpy: np.ptp(lista)
 - Con Python N: altura.max() - altura.min()
+
 _Varianza:_
 - Con numpy: np.var(lista)
+
 _Desviacion Estandar:_
 - Con numpy: np.std(lista)
