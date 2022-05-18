@@ -20,12 +20,14 @@ Cuando es solicitada una columna se crea un serie, un lista unidimensional con v
 _Promedio:_
 - Con numpy: np.mean(lista)
 - Con Python nativo: sum(lista)/len(lista)
+- Con pandas: df["columna"].mean()
 
-_Moda:_
+_Moda: Valor que mas se repite en una muestra._
 - Con Scipy: import scipy.stats as stats -> stats.mode(lista)
 
 _Mediana:_
 - Con numpy: np.median(lista)
+- Con pandas: df["columna"].median()
 
 _Percentiles:_
 - Con numpy: np.percentile(lista,porcentaje)
@@ -36,6 +38,15 @@ _Rango:_
 
 _Varianza:_
 - Con numpy: np.var(lista)
+- Con pandas: df["columna"].var()
 
 _Desviacion Estandar:_
 - Con numpy: np.std(lista)
+- Con pandas: df["columna"].std()
+
+## Momentos Estadisticos
+_Cuatro medidas para el analisis descriptivo de los datos_
+- Medidas de tendencia central: Busca resumir cual numero describe o representa mejor la variable.
+- Medidas de dispercion: Que tan disperso estan los datos respecto a la media.
+- Medidas de sesgo: Que tan desviada esta la distribucion de una variable respecto a su punto de origen. 
+- Medidas de curtosis: La altura de un distribucion respcto al centro.
