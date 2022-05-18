@@ -8,6 +8,7 @@
 - **.iloc[]** # Accede a un valor de un indice o fila (Entrega la fila completa y se puede manipular como diccionario).
 - **.values** # Muestra los valores de una columna llamada.
 - **value_counts()** # Muestra cantidades de valores por variable.
+- **value_counts()** # Muestra cantidades porcentuales de las variables con respecto al total.
 
 _Se puede trabajar con un conjunto definido dentro del DF haciendo uso de ["columna"] podemos especificar la columna deseada o el numero de filas [2], [:10] o [2:10].
 Cuando es solicitada una columna se crea un serie, un lista unidimensional con valores de esa columna._ 
