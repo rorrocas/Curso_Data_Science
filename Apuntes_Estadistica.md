@@ -7,6 +7,7 @@
 - **.columns()** # Retorna un index de las columnas en un DataFrame (Como un diccionario).
 - **.iloc[]** # Accede a un valor de un indice o fila (Entrega la fila completa y se puede manipular como diccionario).
 - **.values** # Muestra los valores de una columna llamada.
+- **value_counts()** # Muestra cantidades de valores por variable.
 
 _Se puede trabajar con un conjunto definido dentro del DF haciendo uso de ["columna"] podemos especificar la columna deseada o el numero de filas [2], [:10] o [2:10].
 Cuando es solicitada una columna se crea un serie, un lista unidimensional con valores de esa columna._ 
@@ -50,3 +51,21 @@ _Cuatro medidas para el analisis descriptivo de los datos_
 - Medidas de dispercion: Que tan disperso estan los datos respecto a la media.
 - Medidas de sesgo: Que tan desviada esta la distribucion de una variable respecto a su punto de origen. 
 - Medidas de curtosis: La altura de un distribucion respcto al centro.
+
+## Control de flujo con pandas
+- for i in df["columna"] # Retorna el valor de la columna mas no el indice.
+- for i in df["columna"].index() # Retorna el indice mas no el valor de la columna.
+- for i,j in df["columna"].iteritems() # Retorna nombre de columna y **todos** los valores de esa columna como una **serie** .
+- for i in df["columna"].iterrows # Recorre dataframe por filas y retorna indice con valores de fila en cada iteracion.
+
+## Subsetting
+- df[bool][indice]
+_Ejemplo:_
+```
+df[df["sexo"] == "M"]["nombres"]
+R:
+2 Jose
+4 Abraham
+5 Julio
+```
+
