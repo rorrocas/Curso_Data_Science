@@ -5,7 +5,8 @@
 - **.head()** # Muestra las primeras filas de un dataframe.
 - **.shape()** # Retorna la cantidad de filas y columnas de un DataFrame.
 - **.columns()** # Retorna un index de las columnas en un DataFrame (Como un diccionario).
-- **.iloc[]** # Accede a un valor de un indice o fila (Entrega la fila completa y se puede manipular como diccionario).
+- **.iloc[indice_pos_filas, indice__pos_columna]** # Crea seria a parit de la posicion de indice o fila (Entrega la fila completa y se puede manipular como diccionario).
+- **.loc[indices, nombre_columnas]** # Accede a una seria filtrando por el nombre del indice y nombre de columnas.
 - **.values** # Muestra los valores de una columna llamada.
 - **value_counts()** # Muestra cantidades de valores por variable.
 - **value_counts()** # Muestra cantidades porcentuales de las variables con respecto al total.
