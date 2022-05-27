@@ -27,3 +27,10 @@ _Coeficiente de correlacion:_
 ![image](https://user-images.githubusercontent.com/96395654/170782574-19692d3a-1603-4965-84fe-a1ed83ccf0ec.png)
 _Covarianza:_
 ![image](https://user-images.githubusercontent.com/96395654/170782625-6966f24c-fe7e-438a-8d42-cc0300488e5b.png)
+
+### FÓRMULAS COMPUTACIONALES PARA LA RECTA DE REGRESIÓN DE MÍNIMOS CUADRADOS
+![image](https://user-images.githubusercontent.com/96395654/170793666-0e62d1d9-db78-4bd6-8f9e-bf7c2aeeae4b.png)
+
+![image](https://user-images.githubusercontent.com/96395654/170793697-7f3072ac-81e6-4343-989a-8302ae9ef30a.png)
+
+
